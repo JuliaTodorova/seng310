@@ -1,0 +1,13 @@
+.newNav{
+	margin-top: 75px;
+}
+.row{
+	padding-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	font-weight: 600;
+	height: 50px;
+	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); 
+}
