@@ -1,0 +1,271 @@
+<!--V00843430 V00199818 V00820072 UVic SENG 310 Phase 1 Group 5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>UVic Course Registration System</title>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Stock photos retrieved from from https://www.pexels.com/ -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row newNav">
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="container">                            
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar navigation">
+							<li><a href = "#projectMandate" class="scroll">Project Mandate</a></li>
+							<li><a href = "#userPersonas" class="scroll">User Personas</a></li>
+							<li><a href = "#userRequirements" class="scroll">User Requirements</a></li>
+							<li><a href = "#scenarios" class="scroll">Scenarios</a></li>
+							<li><a href = "#HTA" class="scroll">Hierarchical Task Analysis</a></li>
+							<li class="last"><a href = "#contributions" class="scroll">Contributions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+				</div>	
+				<div class="col-md-8">
+					<h1>UVic Course Registration System Redesign</h1>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="projectMandate" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>Project Mandate</h2>
+					<p>The UVic Course Registration System is inadequate in its current form and needs to be redesigned to tailor the student’s needs. The new model should be user friendly, which allows students to search for courses fast and efficiently and provides them with all the information they need to make educated decisions regarding their studies. It should be designed in such that less technical-savvy users and advanced users will both use it seamlessly. The page should be easily accessible with the important information front and center. The website should not have multiple pages for user input or selection when searching for courses, as everything will be interactive and the user will not have to leave or reload the page for the data to be presented.</p>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="userPersonas" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>User Personas</h2>
+					<div class="persona">
+						<div id="martinLarson" class="userPhoto"></div>
+						<h4>Martin Larson</h4>
+						<p>Martin Larson is a 3rd year Computer Science student at the University of Victoria. Martin’s father was a software developer which gave him early exposure to computers and how they worked. Martin enjoys building things and has an analytical way of solving problems. When Martin is not studying, he likes to go rock-climbing, which gives him a sense of discipline. Martin would like to have all the information needed to register for courses localized and presented without having to open dozens of browser tabs.</p>
+					</div>
+					<div class="persona">
+						<div id="andreaThomas" class="userPhoto"></div>
+						<h4>Andrea Thomas</h4>
+						<p>Andrea Thomas recently transferred from the University of the Fraser Valley to the University of Victoria. She is a 4th year Social Science major with an emphasis on psychology. Andrea enjoys yoag and is quite physically active outside of school. She believes in a healthy life and school balance. She uses computers every day, but is unfamiliar with the new registration system at UVic. She would consider herself digital literate, but usually needs extra time learning new software.</p>
+					</div>	
+					<div class="persona">
+						<div id="tylerHenderson" class="userPhoto"></div>
+						<h4>Tyler Henderson</h4>
+						<p>Tyler Henderson is an 18-year-old business major in his 1st year at UVic. He got his first laptop at the age of 12 and is very familiar with navigating the internet. He also has experience with programs such as Word, Excel and PowerPoint from the many projects and assignments that he has done for school. He wants to maintain his good health so he stays physically active and eats healthy food. When he is feels like he needs some time away from his computer he will often go to the gym or go on a bike ride with his friends. Also, a lot of the time, while working on his computer he will snack on fruit such as blueberries or raspberries. He views his time as a very important resource and he makes sure that it is spent wisely. He is very observant and is good at figuring things out on his own.</p>
+					</div>
+					<div class="persona">
+						<div id="stephaniePorcher" class="userPhoto"></div>
+						<h4>Stephanie Porcher</h4>
+						<p>Stephanie Porcher is going to be attending UVic this upcoming September and is going to be majoring in Chemistry. She would like to take a few electives on photography, to try and tune her editing skills. She needs information on which electives she might like to take. Stephanie is not very tech savy but loves to use her smart phone not only for facebook and other social media but to keep herself organized with reminders utility apps. She is looking to try her hand at one or two computer science courses while at UVic. Stephanie is a bit worried that she has to balance all of her work with her big commitment to the Varsity Field Hockey team, so would like to take some courses that are a bit easier to off set the workload.</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="userRequirements" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>User Requirements</h2>
+					<h5>The system should be</h5>
+					<ul>
+						<li>User friendly</li>
+						<li>Fast and efficient</li>
+						<li>Simplistic</li>
+					</ul>
+					<h5>The system would be able to</h5>
+					<ul>
+						<li>Search courses</li>
+						<li>Select courses from a drop down menu</li>
+						<li>Show a weekly calendar</li>
+						<li>Simplify registration</li>
+					</ul>
+					<h5>System features</h5>
+					<ul>
+						<li>Drag and drop courses into calendar</li>
+						<li>Allow users to register from the calendar menu</li>
+						<li>Only show courses where the prerequisites are met</li>
+						<li>View waitlisted courses on top of registered course calendar</li>
+						<li>Review and rate courses</li>
+						<li>Rate professors</li>
+						<li>Recommend courses based on GPA, previously taken courses and highly rated courses</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="mockup" class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<img src="course-registration.jpg" alt="Course Registration Mock up" class="img-responsive">
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div id="scenarios" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>Scenarios</h2>
+					<h4>Review and rate courses</h4>
+					<p>Andrea Thomas just finished PSYC 412A and immensely enjoyed the course. She would like to write a review to share her experiences and  thoughts with other students. She logs in to the UVic website and navigates to the course page, where all the courses she has previously taken are listed. She selects PSYC 412A, where she then can write a course review. After Andrea has written the review, she is prompted to rate the course out of five and state weather she would recommended it to other students. Andrea rated the course five stars and would recommended the course to her peers.</p>
+					<h4>Rate professors</h4>
+					<p>Martin Larson needed a 2nd year elective and decided to take HLTH 251. He heard many great things about Dr. Charlotte Loppie, the professor that would be teaching the course. After he took the course, he thought that the Dr. Loppie was a phenomenal professor, who used amusing stories to entice the class. He saw that lectures where always full to the brim as no one wanted to miss any of her classes. Martin thought the midterms were fair and found that he learnt a lot during the term. With Martin’s admiration for Dr. Loppie, he wanted to write a professor review, where his peers could read about his opinions regarding Dr. Loppie’s teaching style and personality. Martin logs on to the UVic website, where he navigates to the course page, then selects HLTH 251, then clicks on the professor listed under the course. Martin then, proceeds to write a review for Charlotte Loppie and gives her five stars.</p>
+					<h4>View waitlisted courses on top of registered course calendar</h4>
+					<p>Martin Larson registered for six courses and was put on the waitlist for an additional three. He plans to drop between three and four courses but wants to see what the schedule for his courses will look like accounting the waitlisted courses. Martin goes on to the UVic websites and logs into his account, where he navigates to the course registration page. He then, checked the button called “Show waitlisted courses” under the Search options on the right-hand side of the page. All 	his waitlisted courses will show on top of his registered courses in the weekly calendar. The waitlisted courses will supply the same information as the registered courses, but will have a transparent background to be able to differentiate between them. Martin can now see all his registered courses and waitlisted courses in one spot, allowing him to make alternation to his schedule easily.</p>
+					<h4>Drag and drop into calendar</h4>
+					<p>Tyler Henderson is planning to take Economics 111 in the spring semester. He is wondering what time the course is offered so that he can create the rest of his schedule. He goes to the UVic website and then logs into his account. He goes to the course registration page. He notices that on the right side of the screen you can search for courses. He changes the selected term from fall to spring then types in "economics" into the search box. A list of economics courses appears. He looks through the list of courses that have appeared until he sees the one that he is looking for. He then drags and drops Economics 111 into the calendar. It automatically snaps into the T/W/F 12:30-1:20 timeslot.</p>
+					<h4>Show a weekly calendar</h4>
+					<p>Tyler Henderson is about to begin his first week of school at UVic. He forgets what his schedule looks like because he registered for his courses in June and it is now September. He decides to check and see what his class times are. He goes to the UVic site and then logs into his account. He goes to the course registration page and sees the weekly calendar right away. He also notices that there are arrows on both sides of the calendar. He clicks on the arrow on the right side and finds that it moves the calendar to the next week. He clicks on the arrow on the left side and finds it returns the calendar to the previous week.</p>
+					<h4>Simplifying Registration</h4>
+					<p>Tyler Henderson wants to register into Philosophy 220 in the fall semester. He goes to the UVic site and then logs into his account. He goes to the course registration page. He sees a box at the bottom of the page with a green button with the word "register" right next to it. He concludes that this is where you type courses to register and so, he types in "Philosophy 220" into the box and presses register. The screen then shows him that he is now registered in Philosophy 220 and the course appears in his calendar in the T/W/F 1:30-2:20 timeslot.</p>
+					<h4>Recommend courses based on GPA, previously taken courses and highly rated courses</h4>
+					<p>Tyler Henderson has figured out four courses that he wants to take in the fall semester so far. He wants to take five courses but he isn't sure which course to take. He goes to the UVic site and then logs into his account. He notices that there is a box at the bottom of the page with recommended courses. He looks through the list of courses and he interested in "Psychology 261" so he drags and drops it into the calendar and it snaps into the T/W/F 1:30-2:20 timeslot. Unfortunately, this conflicts with another course that he has already registered in so he decides to pick something else instead. This time he tries "Anthropology 100" and it snaps into the M/Th 8:30-9:50 timeslot. This time it does not conflict with any other classes so Tyler now has the fifth course he will be taking in the fall semester.</p>
+					<h4>Searching for courses</h4>
+					<p>Stephanie would like to register in CHEM 101 for her first term. She begins by selecting the Fall term in the right hand side of the window on the screen and is then able to begin typing in the course name. After typing in “CH” she notices her desired course in the drop down menu and drags and drops it into her calendar.</p>
+					<h4>Registering in calendar window</h4>
+					<p>Stephanie has decided that CHEM 101 fits well in her timetable and would like to register in the course for the Fall term. She looks over to the dropdown menu and clicks on the ‘register’ button and is successfully registered in the course.</p>
+					<h4>Only show courses which you have the pre-requisites for</h4>
+					<p>After registering in a few courses Stephanie begins getting frustrated that she keeps trying to register in courses which she does not have the prerequisites for. She looks to the right and notices the box saying “Show courses that are available to me”. She checks the box and the drop down menu now restricts the search results to only courses that she has the prerequisites for.</p>
+					<h4>Drop down course search menu</h4>
+					<p>As Stephanie is searching for courses, she does not want to have to type in the entire course name, so she is very thankful for the drop down menu which refreshes the results each time a letter is typed in the search box.</p>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="HTA" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>Hierarchical Task Analysis</h2>
+					<h4>Review and rate courses</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the course page</li>
+						<li>Select a course for review</li>
+						<li>Write a review for the course taken</li>
+						<li>Rate the course out of five</li>
+						<li>State weather it should be recommended to other students</li>
+					</ol>
+					<h4>Rate professors</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the course page</li>
+						<li>Select a course</li>
+						<li>Navigate to the professor information</li>
+						<li>There is an option to either write a review or simply rate the professor out of five</li>
+						<li>Write review or rate professor</li>
+					</ol>
+					<h4>View waitlisted courses on top of registered course calendar</h4>
+					<ol>
+						<li>Assume login access into UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>Find the View Waitlist button</li>
+						<li>Click on the Waitlist button</li>
+						<li>Look to the left side of the page where the weekly calendar is displayed</li>
+						<li>On top of the registered courses will be a transparent view of each of the courses in which the user is waitlisted</li>
+						<li>The user can now compare the waitlisted courses and times</li>
+					</ol>
+					<h4>Drag and drop into calendar</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>The user can search for courses on the right side of the screen under "course search"</li>
+						<li>The user will select the term they want</li>
+						<li>The user will type in the course they are looking for by subject</li>
+						<li>The user will click on the course that they want and drag it over to the calendar</li>
+					</ol>
+					<h4>Show weekly calendar</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>The calendar appears on the left side of the screen</li>
+						<li>The user can select the term they want on the right side of the screen</li>
+						<li>The user can click arrows that appear on the left and right side of the calendar to cycle through the weeks</li>
+					</ol>	
+					<h4>Make registration simple</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>The user can type the course into the box at the bottom of the page and press "register"</li>
+						<li>The user can also register from the course search box. They search for the course that they want and there is a button on the course that allows them to register</li>
+					</ol>
+					<h4>Recommend courses based on GPA, previously taken courses and highly rated courses</h4>
+					<ol>
+						<li>Assume login access into the UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>The recommended courses will appear in a box underneath the course search box</li>
+						<li>The user can click on the course and drag it into the calendar and it will snap into the right timeslot</li>
+					</ol>
+					<h4>Searching for courses</h4>
+					<ol>
+						<li>Assume login access into UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>Select the semester in right window</li>
+						<li>Type the name of the course in the search bar on the right side of the screen</li>
+						<li>Select course from the drop down menu</li>
+					</ol>	
+					<h4>Register in calendar window</h4>
+					<ol>
+						<li>Assume login access into UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>Choose a course to register in</li>
+						<li>Click on the ‘register’ button next to the course in the drop down menu</li>
+					</ol>
+					<h4>Only show courses which pre-requisites are met</h4>
+					<ol>
+						<li>Assume login access into UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>Check the ‘Show courses available to me’ box on the right side of screen</li>
+						<li>Results will only include courses in which the user has met the pre-requisites to</li>
+					</ol>
+					<h4>Drop down course search menu</h4>
+					<ol>
+						<li>Assume login access into UVic website</li>
+						<li>Navigate to the Course Registration page</li>
+						<li>Type letters into search bar on the right side of the screen</li>
+						<li>Letter by letter the drop down bar refreshes its search results</li>
+					</ol>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+			<div id="contributions" class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<h2>Contributions</h2>
+					<p>Phase one of the project for group five went very smoothly. All team members met at the first lab and where able to come up with most of the user requirements for the project. Julia took minutes during the lab which allowed the team to understand everyone’s responsibilities. From the minutes, most of the brainstorming for the project mandate were developed, therefore only typing up the idea were necessary. The project mandate and user requirements were a group effort and everyone had equal input. Michael wrote one persona, Thaddaeus one and Julia two. There were eleven concise user requirements, where Michael did four scenarios and the corresponding HTAs; Thaddaeus did four scenarios and the corresponding HTAs, and Julia did three scenarios and the corresponding HTAs. Julia then took the content produced and created a HTML document to display the requirements engineering report.</p>
+				</div>
+				<div class="col-md-2">
+				</div>
+			</div>
+		</div>	
+		<footer>
+			<p>V00843430 V00199818 V00820072</p>
+		</footer>
+	</div>	
+</body>
+</html>

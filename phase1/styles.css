@@ -1,0 +1,44 @@
+.userPhoto{
+	width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    margin-bottom: 25px;
+    margin: 0 auto;
+}
+
+#tylerHenderson{
+    background: url(TylerHenderson.jpg) no-repeat;
+}
+
+#andreaThomas{
+    background: url(AndreaThomas.jpg) no-repeat;
+}
+
+#martinLarson{
+    background: url(MartinLarson.jpg) no-repeat;
+}
+
+#stephaniePorcher{
+    background: url(stephaniePorcher.jpg) no-repeat;
+}
+
+.persona h4{
+	text-align: center;
+}
+.newNav{
+	margin-top: 75px;
+}
+.row{
+	padding-bottom: 20px;
+}
+h2,h3,h4,h5{
+	padding: 10px 0;
+}
+footer{
+	text-align: center;
+	font-weight: 600;
+	height: 50px;
+	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); 
+}
