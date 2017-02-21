@@ -11,3 +11,16 @@ footer{
 	height: 50px;
 	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); 
 }
+
+#generate_meals .col-md-8 img{
+	height: 500px;
+}
+
+#generate_meals ul li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 25px;	
+}
+#generate_meals h3{
+	text-align: center;
+}
