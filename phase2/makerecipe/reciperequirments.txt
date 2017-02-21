@@ -1,0 +1,7 @@
+1) Provide a platform to generate weekly meal plans
+2) Generate the grocery list for a given plan
+3)Each recipe and ingredient will display nutritional information.  Calories,
+fat, cholesterol, sodium and protein will be available.
+4) Able to plan their meals for at least 7 days using selected recipes
+5)Required ingredients are displayed as per day, and week.
+6)
