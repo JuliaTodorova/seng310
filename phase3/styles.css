@@ -1,0 +1,39 @@
+header{
+	text-align: center;
+	margin: 0 auto;
+}
+header img {
+	padding-top: 25px;
+}
+.newNav{
+	margin-top: 75px;
+}
+.row{
+	padding-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	font-weight: 600;
+	height: 50px;
+	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); 
+}
+
+.col-md-8 img{
+	height: 500px;
+}
+
+.col-md-8 ul li{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 25px;	
+}
+h3{
+	text-align: center;
+}
+.loginButtons button{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
