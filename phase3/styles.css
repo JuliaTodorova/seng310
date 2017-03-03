@@ -16,7 +16,6 @@ footer{
 	text-align: center;
 	font-weight: 600;
 	height: 50px;
-	background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); 
 }
 
 .col-md-8 img{
@@ -31,9 +30,12 @@ footer{
 h3{
 	text-align: center;
 }
+.loginButtons{
+	text-align: center;
+}
 .loginButtons button{
 	display: block;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
