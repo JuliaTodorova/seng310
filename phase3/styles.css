@@ -31,3 +31,9 @@ footer{
 h3{
 	text-align: center;
 }
+.loginButtons button{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
