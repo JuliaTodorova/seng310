@@ -278,3 +278,12 @@ h3{
     font-size: 1rem;
   }
 }
+.panel-body p {
+  padding-left: 40px;
+}
+.panel-heading{
+  padding: 20px;
+}
+.add{
+  float: right;
+}
