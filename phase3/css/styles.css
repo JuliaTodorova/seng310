@@ -287,3 +287,11 @@ h3{
 .add{
   float: right;
 }
+.thumb{
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.thumb img{
+  margin: 0 auto;
+  height: auto;
+}
