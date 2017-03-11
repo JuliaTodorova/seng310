@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
-	$(".add").click(function(){
-		var recipeId = ($('.add').attr('id'));
+	$(".add").click(function(event){
+		var recipeId = event.currentTarget.id;
+		console.log(recipeId);
 	});
 	
 	$("").click(function(event){
