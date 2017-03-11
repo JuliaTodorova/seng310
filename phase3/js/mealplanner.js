@@ -1,18 +1,15 @@
 $(document).ready(function(){
-
 	$(".add").click(function(event){
 		var recipeId = event.currentTarget.id;
-		console.log(recipeId);
-	});
+		$("#recipeList").data("current-recipe-id",recipeId);
+	});		
 	
-	$("").click(function(event){
-		alert(event.target.id);
-	});
-
 	$("#addRecipe").click(function(){
 		var week = $("#week option:selected").text();
 		var meal = $("#meal-type option:selected").text();
+		var currentRecipe = $("#recipeList").data("current-recipe-id");
 		console.log(week);
 		console.log(meal);
+		console.log(currentRecipe);
 	});
 });
