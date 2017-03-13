@@ -35,7 +35,7 @@
 			<div class="row">
 				<div class="col-md-2">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8" id="recipeList">
 				  <div class="panel-group" id="accordion">
 					  <div class="panel panel-default">
 					    <div class="panel-heading">
@@ -43,7 +43,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 					          One Pot Kale and Quinoa Pilaf
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="kale"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 						<div  class="modal fade" id="openModal" class="" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -56,7 +56,7 @@
 						        </div>
 						        <div class="modal-body">
 						        	<h4>Add to day</h4>
-						        	<select class="form-control" data-style="btn-primary" data-width="500px">
+						        	<select class="form-control" data-style="btn-primary" data-width="500px" id="week">
 									  <option>Sunday</option>
 									  <option>Monday</option>
 									  <option>Tuesday</option>
@@ -66,14 +66,14 @@
 									  <option>Saturday</option>
 									</select>
 									<h4>Add to meal</h4>
-						        	<select class="form-control">
+						        	<select class="form-control" id="meal-type">
 									  <option>Breakfast</option>
 									  <option>Lunch</option>
 									  <option>Dinner</option>
 									</select>
 						        </div>
 						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Add</button>
+						          <button type="button" class="btn btn-default" data-dismiss="modal" id="addRecipe">Add</button>
 						        </div>
 						      </div>
 						    </div>
@@ -109,7 +109,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 					          Lentil and Sausage Soup
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="lentil"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 					    <div id="collapseTwo" class="panel-collapse collapse">
@@ -150,7 +150,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 					          Short Rib Ragu
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="rib"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 					    <div id="collapseThree" class="panel-collapse collapse">
@@ -196,7 +196,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
 					          Shrimp Burgers
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="shrimp"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 					    <div id="collapseFour" class="panel-collapse collapse">
@@ -231,7 +231,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
 					          Porcini and Rosemary Crusted Beef Tenderloin
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>   
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="beef"><span class="glyphicon glyphicon-plus"></span></a>   
 					      </h4>
 					    </div>
 					    <div id="collapseFive" class="panel-collapse collapse">
@@ -263,7 +263,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
 					          Crispy Coconut Kale with Roasted Salmon and Coconut Rice
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>  
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="coconut"><span class="glyphicon glyphicon-plus"></span></a>  
 					      </h4>
 					    </div>
 					    <div id="collapseSix" class="panel-collapse collapse">
@@ -303,7 +303,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
 					          Beef Bourguignon
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="bourguignon"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 					    <div id="collapseSeven" class="panel-collapse collapse">
@@ -349,7 +349,7 @@
 					        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
 					          Roast Duck Breast with Green Peppercorns and Tiny Roast Potatoes
 					        </a>
-					        <a href="#" class="add" data-toggle="modal" data-target="#openModal"><span class="glyphicon glyphicon-plus"></span></a>
+					        <a href="#" class="add" data-toggle="modal" data-target="#openModal" id="duck"><span class="glyphicon glyphicon-plus"></span></a>
 					      </h4>
 					    </div>
 					    <div id="collapseEight" class="panel-collapse collapse">
@@ -400,6 +400,6 @@
 		</footer>
 	</div>
 	<script src="js/menu.js"></script>
-	<script src="js/viewrecipes.js"></script>	
+	<script src="js/mealplanner.js"></script>	
 </body>
 </html>
