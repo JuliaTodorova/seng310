@@ -14,7 +14,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	
+
 </head>
 <body>
 	<header class="cd-header">
@@ -25,7 +25,7 @@
 			<li><a href="profile.html">Profile</a></li>
 			<li><a href="viewrecipes.html">View Recipes</a></li>
 			<li><a href="mealplanner.html">Meal Planner</a></li>
-			<li><a href="viewspecificrecipes.html">View Specific Recipes</a></li>
+			<li><a href="mealplanner.html">View Specific Recipes</a></li>
 		</ul>
 	</nav>
 	<div class="container-fluid">
@@ -34,63 +34,86 @@
 				<h1>View Specific Recipes</h1>
 				<img src="images/logo.jpeg">
 			</div>
-			<div class="oneRecipe">
-				<div class="thumb">
-					<img src="images/quinoa.jpg">
+
+
+			</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2">
 				</div>
-				
-				<h2>One Pot Kale and Quinoa Pilaf</h2>
-				
-				<div class = "starslocate">
-					<div class="stars">
-					  <form action="">
-						<input class="star star-5" id="star-5" type="radio" name="star"/>
-						<label class="star star-5" for="star-5"></label>
-						<input class="star star-4" id="star-4" type="radio" name="star"/>
-						<label class="star star-4" for="star-4"></label>
-						<input class="star star-3" id="star-3" type="radio" name="star"/>
-						<label class="star star-3" for="star-3"></label>
-						<input class="star star-2" id="star-2" type="radio" name="star"/>
-						<label class="star star-2" for="star-2"></label>
-						<input class="star star-1" id="star-1" type="radio" name="star"/>
-						<label class="star star-1" for="star-1"></label>
-					  </form>
-					</div>
+				<div class="col-md-8">
+
+					<div class="oneRecipe">
+						<div class="thumb">
+							<img src="images/quinoa.jpg">
+						</div>
+
+						<h2>One Pot Kale and Quinoa Pilaf</h2>
+
+						<div class = "starslocate">
+							<div class="stars">
+								<form action="">
+								<input class="star star-5" id="star-5" type="radio" name="star"/>
+								<label class="star star-5" for="star-5"></label>
+								<input class="star star-4" id="star-4" type="radio" name="star"/>
+								<label class="star star-4" for="star-4"></label>
+								<input class="star star-3" id="star-3" type="radio" name="star"/>
+								<label class="star star-3" for="star-3"></label>
+								<input class="star star-2" id="star-2" type="radio" name="star"/>
+								<label class="star star-2" for="star-2"></label>
+								<input class="star star-1" id="star-1" type="radio" name="star"/>
+								<label class="star star-1" for="star-1"></label>
+								</form>
+							</div>
+						</div>
+						</div>
+						<div class = "recipeIngredients">
+							<h3> Ingredients </h3>
+							<div class="servingSize">
+							<form>Serving Size:
+									<input type="number" name="quantity" min="1"  value="2" style="width: 35px;" id = "size1">
+							</form>
+							</div>
+
+							<form class="form-horizontal">
+								<fieldset>
+								<!-- Form Name -->
+								<legend>Form Name</legend>
+								<!-- Text input-->
+								<div class="form-group">
+								  <label class="col-md-4 control-label" for="textinput"></label>
+								  <div class="col-md-1">
+								  	<input id="textinput" name="textinput" placeholder="" class="form-control input-md" type="text">
+								  </div>
+								</div>
+								</fieldset>
+							</form>
+
+							<div class="ingredients">
+
+
+								<p><input class = "form-control input-md"  style = "width: 50px;" id= "i1"> cups salted water</p>
+								<p><input class = "ingredient" id= "i2"> cup quinoa</p>
+								<p><input class = "ingredient" id= "i3"> bunch lacinato kale, washed and chopped into 1" lengths</p>
+								<p><input class = "ingredient" id= "i4"> meyer lemon, zested and juiced</p>
+								<p><input class = "ingredient" id= "i5"> scallions, minced</p>
+								<p><input class = "ingredient" id= "i6"> tablespoon toasted walnut oil</p>
+								<p><input class = "ingredient" id= "i7"> tablespoons toasted pine nuts</p>
+								<p><input class = "ingredient" id= "i8"> cup crumbled goat cheese</p>
+								<p>Salt and Pepper</p>
+							</div>
+							<ol>
+								<li>Bring the water to a boil in a covered pot. Add the quinoa, cover, and lower the heat until it is just enough to maintain a simmer. Let simmer for 10 minutes, then top with the kale and re-cover. Simmer another 5 minutes, then turn off the heat and allow to steam for 5 more minutes.</li>
+								<li>While the quinoa is cooking, take a large serving bowl and combine half of the lemon juice (reserving the other half), all of the lemon zest, scallions, walnut oil (you can substitute olive oil if you desire), pine nuts, and goat cheese.</li>
+								<li>Check the quinoa and kale when the cooking time has completed -- the water should have absorbed, and the quinoa will be tender but firm, and the kale tender and bright green. If the quinoa still has a hard white center, you can steam a bit longer (adding more water if needed). When the quinoa and kale are done, fluff the pilaf, and tip it into the waiting bowl with the remaining ingredients. As the hot quinoa hits the scallions and lemon it should smell lovely. Toss to combine, seasoning with salt and pepper, and the remaining lemon juice if needed.</li>
+							</ol>
+						</div>
+
 				</div>
-				
-				</div>
-				
-				</div>
-				
-				
-				<div class = "recipeIngredients">
-					<h3> Ingredients </h3>				
-					<div class="servingSize">
-					<form>Serving Size:	
-							<input type="number" name="quantity" min="1"  value="2" style="width: 35px;" id = "size1">
-					</form>
-					</div>
-					<div class="ingredients">
-						
-				
-						<p><input class = "ingredient" id= "i1"> cups salted water</p>
-						<p><input class = "ingredient" id= "i2"> cup quinoa</p>
-						<p><input class = "ingredient" id= "i3"> bunch lacinato kale, washed and chopped into 1" lengths</p>
-						<p><input class = "ingredient" id= "i4"> meyer lemon, zested and juiced</p>
-						<p><input class = "ingredient" id= "i5"> scallions, minced</p>
-						<p><input class = "ingredient" id= "i6"> tablespoon toasted walnut oil</p>
-						<p><input class = "ingredient" id= "i7"> tablespoons toasted pine nuts</p>
-						<p><input class = "ingredient" id= "i8"> cup crumbled goat cheese</p>
-						<p>Salt and Pepper</p>
-					</div>
-					<ol>
-						<li>Bring the water to a boil in a covered pot. Add the quinoa, cover, and lower the heat until it is just enough to maintain a simmer. Let simmer for 10 minutes, then top with the kale and re-cover. Simmer another 5 minutes, then turn off the heat and allow to steam for 5 more minutes.</li>
-						<li>While the quinoa is cooking, take a large serving bowl and combine half of the lemon juice (reserving the other half), all of the lemon zest, scallions, walnut oil (you can substitute olive oil if you desire), pine nuts, and goat cheese.</li>
-						<li>Check the quinoa and kale when the cooking time has completed -- the water should have absorbed, and the quinoa will be tender but firm, and the kale tender and bright green. If the quinoa still has a hard white center, you can steam a bit longer (adding more water if needed). When the quinoa and kale are done, fluff the pilaf, and tip it into the waiting bowl with the remaining ingredients. As the hot quinoa hits the scallions and lemon it should smell lovely. Toss to combine, seasoning with salt and pepper, and the remaining lemon juice if needed.</li>
-					</ol>
+				<div class="col-md-2">
 				</div>
 			</div>
-			
 			<div class="row">
 				<div class="col-md-2">
 				</div>
@@ -99,21 +122,13 @@
 				<div class="col-md-2">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-8">
-				</div>
-				<div class="col-md-2">
-				</div>
-			</div>
-		</div>	
+		</div>
 		<footer>
 			<p>V00843430 V00807486 V00818749</p>
 		</footer>
 	</div>
 		<script src="js/menu.js"></script>
-		<script src="js/mealplanner.js"></script>	
+		<script src="js/mealplanner.js"></script>
 		<script src="js/viewspecificrecipies.js"></script>
 </body>
 </html>
