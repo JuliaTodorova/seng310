@@ -27,3 +27,4 @@ function clickedMe(){
 }
 updateIngr();
 clickedMe();
+$(':checkbox').checkboxpicker();

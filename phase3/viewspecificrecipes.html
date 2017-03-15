@@ -16,6 +16,15 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/sethStyles.css">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 </head>
 <body>
 	<header class="cd-header">
@@ -36,7 +45,6 @@
 				<img src="images/logo.jpeg">
 			</div>
 
-
 			</div>
 			</div>
 
@@ -49,9 +57,7 @@
 						<div class="thumb">
 							<img src="images/quinoa.jpg">
 						</div>
-
 						<h2>One Pot Kale and Quinoa Pilaf</h2>
-
 						<div class = "starslocate">
 							<div class="stars">
 								<form action="">
@@ -67,49 +73,46 @@
 								<label class="star star-1" for="star-1"></label>
 								</form>
 							</div>
+						 </div>
+						<div class = "likebtn"> 
+							<a class="btn btn-info btn-lg" style="font-size: 15px;">
+								<span class="glyphicon glyphicon-thumbs-up"></span> Like
+							</a>
 						</div>
+						<br>
+						<br>
+						<br>
+							
+					</div>
+					<div class = "recipeIngredients">
+					<hr>
+						<h3 style="text-align: left"> Ingredients </h3>
+						
+						<div class="servingSize">
+						<form>Serving Size:
+								<input type="number" name="quantity" min="1"  value="2" style="width: 35px;" id = "size1">
+						</form>
 						</div>
-						<div class = "recipeIngredients">
-							<h3> Ingredients </h3>
-							<div class="servingSize">
-							<form>Serving Size:
-									<input type="number" name="quantity" min="1"  value="2" style="width: 35px;" id = "size1">
-							</form>
-							</div>
 
-							<form class="form-horizontal">
-								<fieldset>
-								<!-- Form Name -->
-								<legend>Form Name</legend>
-								<!-- Text input-->
-								<div class="form-group">
-								  <label class="col-md-4 control-label" for="textinput"></label>
-								  <div class="col-md-1">
-								  	<input id="textinput" name="textinput" placeholder="" class="form-control input-md" type="text">
-								  </div>
-								</div>
-								</fieldset>
-							</form>
+						
 
-							<div class="ingredients">
+						<div class="ingredients">
 
 
-								<p><input class = "form-control input-md"  style = "width: 50px;" id= "i1"> cups salted water</p>
-								<p><input class = "ingredient" id= "i2"> cup quinoa</p>
-								<p><input class = "ingredient" id= "i3"> bunch lacinato kale, washed and chopped into 1" lengths</p>
-								<p><input class = "ingredient" id= "i4"> meyer lemon, zested and juiced</p>
-								<p><input class = "ingredient" id= "i5"> scallions, minced</p>
-								<p><input class = "ingredient" id= "i6"> tablespoon toasted walnut oil</p>
-								<p><input class = "ingredient" id= "i7"> tablespoons toasted pine nuts</p>
-								<p><input class = "ingredient" id= "i8"> cup crumbled goat cheese</p>
-								<p>Salt and Pepper</p>
-							</div>
-							<ol>
-								<li>Bring the water to a boil in a covered pot. Add the quinoa, cover, and lower the heat until it is just enough to maintain a simmer. Let simmer for 10 minutes, then top with the kale and re-cover. Simmer another 5 minutes, then turn off the heat and allow to steam for 5 more minutes.</li>
-								<li>While the quinoa is cooking, take a large serving bowl and combine half of the lemon juice (reserving the other half), all of the lemon zest, scallions, walnut oil (you can substitute olive oil if you desire), pine nuts, and goat cheese.</li>
-								<li>Check the quinoa and kale when the cooking time has completed -- the water should have absorbed, and the quinoa will be tender but firm, and the kale tender and bright green. If the quinoa still has a hard white center, you can steam a bit longer (adding more water if needed). When the quinoa and kale are done, fluff the pilaf, and tip it into the waiting bowl with the remaining ingredients. As the hot quinoa hits the scallions and lemon it should smell lovely. Toss to combine, seasoning with salt and pepper, and the remaining lemon juice if needed.</li>
-							</ol>
+							<p><input class = "ingredient" id= "i1"> cups salted water</p>
+							<p><input class = "ingredient" id= "i2"> cup quinoa</p>
+							<p><input class = "ingredient" id= "i3"> bunch lacinato kale, washed and chopped into 1" lengths</p>
+							<p><input class = "ingredient" id= "i4"> meyer lemon, zested and juiced</p>
+							<p><input class = "ingredient" id= "i5"> scallions, minced</p>
+							<p><input class = "ingredient" id= "i6"> tablespoon toasted walnut oil</p>
+							<p><input class = "ingredient" id= "i7"> tablespoons toasted pine nuts</p>
+							<p><input class = "ingredient" id= "i8"> cup crumbled goat cheese</p>
+							<p>Salt and Pepper</p>
 						</div>
+						
+					</div>
+						
+						
 
 				</div>
 				<div class="col-md-2">
@@ -119,6 +122,22 @@
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
+					<div class ="recipeDirections" >
+						<hr>
+						<h3 style="text-align: left;"> Directions </h3>
+						<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<div class ="timeicon">
+								<span class="glyphicon glyphicon-time" style="font-size: 20px;"></span> 20 min
+								
+							</div>
+						<div class="dirpic">
+							<img src="images/directions_1.png">
+						</div>
+					<hr>
+						
+						
+						
+					</div>
 				</div>
 				<div class="col-md-2">
 				</div>
@@ -133,3 +152,4 @@
 		<script src="js/viewspecificrecipies.js"></script>
 </body>
 </html>
+
