@@ -3,7 +3,7 @@
 }
 
 .ingredient{
-	width: 30px;
+	width: 35px;
 }
 
 .oneRecipe{
@@ -12,14 +12,31 @@
 
 .recipeIngredients{
 	text-align: left;
-	//width: 400px;
+	
 	padding-left: 200px;
 	padding-right: 200px;
+	//border: 3px solid #ffffff;
 }
+
+.likebtn{
+	//padding-left: 100px;
+	//border: 3px solid #73AD21;
+	position: absolute;
+    right: 300px;
+    //width: 300px;
+    
+    padding: 10px;
+	
+	}
 
 
 .starslocate{
-	padding-left: 170px;
+	padding-left: 300px;
+	//margin: auto;
+	//left: 70%;
+    width: 480px;
+    //border: 3px solid #73AD21;
+ 
 }
 
 div.stars {
@@ -37,28 +54,13 @@ label.star {
   font-weight: 200;
   color: #FD4;
   transition: all .2s;
+  
 }
-
-
-input.star:checked ~ label.star:before {
-  content: '★';
-  color: #FD4;
-  transition: all .25s;
-}
-
-input.star-5:checked ~ label.star:before {
-  color: #FE7;
-  text-shadow: 0 0 20px #952;
-}
-
-input.star-1:checked ~ label.star:before { color: #F62;  }
-
-label.star:hover { transform: rotate(-15deg) scale(1.3); }
-
-
+/*
 .star-1:before{
 	content: '★';
 }
+
 .star-2:before{
 	content: '★';
 }
@@ -71,3 +73,28 @@ label.star:hover { transform: rotate(-15deg) scale(1.3); }
 .star-5:before{
 	content: '☆';
 }
+*/
+input.star:checked ~ label.star:before {
+  content: '★';
+  color: #FD4;
+  transition: all .25s;
+}
+
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62;  }
+
+
+
+label.star:before {
+	content: '☆';
+}
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+l
+
