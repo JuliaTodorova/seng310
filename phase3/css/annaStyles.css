@@ -1,0 +1,54 @@
+
+.tg  {
+		table-layout:fixed;
+		width:1200px; 
+		border-collapse:collapse;
+		border-spacing:0;
+		border-color:#bbb;
+	}
+.tg td{
+	font-size:26px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#bbb;
+	color:#594F4F;
+	background-color:#FFE6E6; /*Change this later*/
+	}
+.tg th{
+	font-size:26px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid
+	;border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#bbb;
+	color:#493F26;
+	background-color:#FF8080; /*Change this later*/
+	}
+.tg .tg-B{
+	font-size:26px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid
+	;border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#bbb;
+	color:#493F26;
+	background-color:#FF8080;
+	
+}
+.tg .tg-L{
+	background-color:#FF8080;
+	color:#493F26;
+}
+.tg .tg-D{
+	background-color:#FF8080;
+	color:#493F26;
+}
+					
+				
