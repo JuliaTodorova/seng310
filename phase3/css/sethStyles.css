@@ -1,7 +1,7 @@
 .backbtn{
 	padding-top: 30px;
 	padding-left: 60px;
-	
+
 }
 
 input.box[type="checkbox"] {
@@ -13,7 +13,7 @@ ul li {
     //font-family:'Lato';
     position:relative
 }
- 
+
 ul li:after {
     content:'';
     position:absolute;
@@ -27,7 +27,7 @@ ul li:after {
 
 label.box {
     cursor:pointer;
-    color:#000;			
+    color:#000;
     margin:5px 0;
     padding-left:40px;
     position:relative;
@@ -57,7 +57,7 @@ label.box:before {
     -o-transition:.2s linear;
     transition:.2s linear
 }
- 
+
 label.box:after {
     transform:rotate(-45deg);
     transform-origin:10 20px;
@@ -72,9 +72,9 @@ input.box[type="checkbox"]:checked + label:after,input[type="checkbox"]:checked 
     height:25px
 
 }
- 
+
 input.box[type="checkbox"]:checked + label {
-    color:#707070 
+    color:#707070
 }
 
 
@@ -85,7 +85,7 @@ input.box[type="checkbox"]:checked + label {
 }
 
 .ingredient{
-	width: 35px;
+	width: 38px;
 }
 
 .oneRecipe{
@@ -94,7 +94,7 @@ input.box[type="checkbox"]:checked + label {
 
 .recipeIngredients{
 	text-align: left;
-	
+
 	padding-left: 200px;
 	padding-right: 200px;
 	//border: 3px solid #ffffff;
@@ -102,10 +102,10 @@ input.box[type="checkbox"]:checked + label {
 
 .recipeDirections{
 	text-align: left;
-	
+
 	padding-left: 200px;
 	padding-right: 200px;
-	
+
 }
 
 .likebtn{
@@ -114,24 +114,24 @@ input.box[type="checkbox"]:checked + label {
 	position: absolute;
     right: 300px;
     //width: 300px;
-    
+
     padding: 10px;
-	
+
 	}
 
 .timeicon{
 	font-family: Verdana;
 	text-align: right;
 	font-size: 15px;
-}	
+}
 
 .dirpic img{
 	display: block;
     margin: auto;
     width: 100%;
 	height: auto;
-	
-	
+
+
 	//transform: scale(0.3, 0.3);
 	//transform: translateX(-10%);
 	//-ms-transform: scale(0.2, 0.2);
@@ -148,7 +148,7 @@ input.box[type="checkbox"]:checked + label {
 	//left: 70%;
     width: 480px;
     //border: 3px solid #73AD21;
- 
+
 }
 
 div.stars {
@@ -166,7 +166,7 @@ label.star {
   font-weight: 200;
   color: #FD4;
   transition: all .2s;
-  
+
 }
 /*
 .star-1:before{
@@ -207,11 +207,3 @@ label.star:before {
 }
 
 label.star:hover { transform: rotate(-15deg) scale(1.3); }
-
-
-
-
-
-
-
-
