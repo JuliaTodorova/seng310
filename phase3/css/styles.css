@@ -1,3 +1,13 @@
+.recipeLink{
+	font-size: 18px;
+	width: 20px;
+	float: right;
+	margin-right: 20px;
+	//padding-right: 20px;
+	
+}
+
+
 .new-header{
 	text-align: center;
 	margin: 0 auto;
@@ -25,7 +35,7 @@ footer{
 .col-md-8 ul li{
 	display: inline-block;
 	margin: 0 auto;
-	padding: 25px;	
+	padding: 25px;
 }
 h3{
 	text-align: center;
@@ -285,7 +295,8 @@ h3{
   padding: 20px;
 }
 .add{
-  float: right;
+	position: absolute;
+	left: 94%;
 }
 .thumb{
   padding-left: 40px;
