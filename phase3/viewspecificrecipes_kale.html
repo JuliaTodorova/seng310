@@ -35,7 +35,7 @@
 			<li><a href="profile.html">Profile</a></li>
 			<li><a href="viewrecipes.html">View Recipes</a></li>
 			<li><a href="mealplanner.html">Meal Planner</a></li>
-			<li><a href="mealplanner.html">View Specific Recipes</a></li>
+			<!--<li><a href="mealplanner.html">View Specific Recipes</a></li> -->
 		</ul>
 	</nav>
 	<div class="container-fluid">
@@ -65,7 +65,7 @@
 								<label class="star star-5" for="star-5"></label>
 								<input class="star star-4" id="star-4" type="radio" name="star"/>
 								<label class="star star-4" for="star-4"></label>
-								<input class="star star-3" id="star-3" type="radio" name="star"/>
+								<input class="star star-3" id="star-3" type="radio" checked = "checked" name="star"/>
 								<label class="star star-3" for="star-3"></label>
 								<input class="star star-2" id="star-2" type="radio" name="star"/>
 								<label class="star star-2" for="star-2"></label>
@@ -131,12 +131,30 @@
 								
 							</div>
 						<div class="dirpic">
-							<img src="images/directions_1.png">
+							<!--<img src="images/directions_1.png"> -->
 						</div>
-					<hr>
+					
+					<ul>
+						<li>
+								<input class ="box" type="checkbox" name="notepad" id="notepad" />
+								<label class ="box" for="notepad">Bring the water to a boil in a covered pot. Add the quinoa, cover, and lower the heat until it is just enough to maintain a simmer. Let simmer for 10 minutes, then top with the kale and re-cover. Simmer another 5 minutes, then turn off the heat and allow to steam for 5 more minutes.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="sb" id="sb" />
+								<label class ="box" for="sb">While the quinoa is cooking, take a large serving bowl and combine half of the lemon juice (reserving the other half), all of the lemon zest, scallions, walnut oil (you can substitute olive oil if you desire), pine nuts, and goat cheese.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="notepad+" id="notepad+" />
+								<label class ="box" for="notepad+">Check the quinoa and kale when the cooking time has completed -- the water should have absorbed, and the quinoa will be tender but firm, and the kale tender and bright green. If the quinoa still has a hard white center, you can steam a bit longer (adding more water if needed).</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="txtmate" id="txtmate" />
+								<label class ="box" for="txtmate">When the quinoa and kale are done, fluff the pilaf, and tip it into the waiting bowl with the remaining ingredients. As the hot quinoa hits the scallions and lemon it should smell lovely. Toss to combine, seasoning with salt and pepper, and the remaining lemon juice if needed.</label>
+						</li>
 						
+					</ul>	
 						
-						
+					<hr>	
 					</div>
 				</div>
 				<div class="col-md-2">
@@ -149,7 +167,7 @@
 	</div>
 		<script src="js/menu.js"></script>
 		<script src="js/mealplanner.js"></script>
-		<script src="js/viewspecificrecipies.js"></script>
+		<script src="js/viewspecificrecipies_kale.js"></script>
 </body>
 </html>
 
