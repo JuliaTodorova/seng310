@@ -1,3 +1,9 @@
+.backbtn{
+	padding-top: 30px;
+	padding-left: 60px;
+	
+}
+
 input.box[type="checkbox"] {
     display:none
 }
@@ -63,7 +69,8 @@ label.box:after {
 }
 
 input.box[type="checkbox"]:checked + label:after,input[type="checkbox"]:checked + label:before {
-    height:30%
+    height:25px
+
 }
  
 input.box[type="checkbox"]:checked + label {
@@ -200,6 +207,9 @@ label.star:before {
 }
 
 label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+
+
 
 
 
