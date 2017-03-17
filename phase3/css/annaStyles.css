@@ -7,7 +7,7 @@
 		border-color:#bbb;
 	}
 .tg td{
-	font-size:26px;
+	font-size:14px;
 	padding:10px 5px;
 	border-style:solid;
 	border-width:1px;
@@ -45,10 +45,14 @@
 .tg .tg-L{
 	background-color:#FF8080;
 	color:#493F26;
+	font-size:26px;
+	font-weight:normal;
 }
 .tg .tg-D{
 	background-color:#FF8080;
 	color:#493F26;
+	font-size:26px;
+	font-weight:normal;
 }
 					
 				
