@@ -1,59 +1,154 @@
-<!--V00843430 V00807486 V00818749 UVic SENG 310 Phase 3-->
+<!--V00843430 V00807486 V00818749 V00818387 UVic SENG 310 Phase 3-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>View Specific Recipes</title>
 	<title>Profile</title>
 	<meta charset="utf-8">
 	<!-- jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/sethStyles.css">
+
 </head>
 <body>
 	<header class="cd-header">
-		<a class="cd-primary-nav-trigger" href="#0"><span class="cd-menu-icon"></span></a>
-	</header>
-	<nav>
-		<ul class="cd-primary-nav">
 			<li><a href="profile.html">Profile</a></li>
 			<li><a href="viewrecipes.html">View Recipes</a></li>
 			<li><a href="mealplanner.html">Meal Planner</a></li>
 			<li><a href="viewspecificrecipes.html">View Specific Recipes</a></li>
 			<li><a href="mealscheduler.html">Meal Schedule</a></li>
+			<li><a href="mealplanner.html">View Specific Recipes</a></li>
+			<li><a href="group1.html">Group Meal Planning</a></li>
+
 		</ul>
 	</nav>
 	<div class="container-fluid">
 		<div class="container">
 			<div class="row new-header">
+				<h1>User Profile</h1>
 				<h1>Profile</h1>
 				<img src="images/logo.jpeg">
 			</div>
+
+
+			</div>
+			</div>
+
 			<div class="row">
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
+	
+					<form class="form-horizontal">
+						<fieldset>
+
+						<!-- Form Name -->
+						<legend>Jeremy Smith</legend>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Email</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" placeholder="jeremy_sm@gmail.com" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Birthday</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" placeholder="April 9th, 1996" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Select Basic -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="selectbasic">Gender</label>
+						  <div class="col-md-4">
+							<select id="selectbasic" name="selectbasic" class="form-control">
+							  <option value="1">Male</option>
+							  <option value="2">Female</option>
+							</select>
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Weight</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" placeholder="56kg" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">Height</label>  
+						  <div class="col-md-4">
+						  <input id="textinput" name="textinput" placeholder="170cm" class="form-control input-md" type="text">
+							
+						  </div>
+						</div>
+
+						<!-- Multiple Checkboxes -->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="checkboxes">Dietry Restricitons</label>
+						  <div class="col-md-4">
+						  <div class="checkbox">
+							<label for="checkboxes-0">
+							  <input name="checkboxes" id="checkboxes-0" value="1" type="checkbox">
+							  Peanut
+							</label>
+							</div>
+						  <div class="checkbox">
+							<label for="checkboxes-1">
+							  <input name="checkboxes" id="checkboxes-1" value="2" type="checkbox">
+							  Milk
+							</label>
+							</div>
+						  <div class="checkbox">
+							<label for="checkboxes-2">
+							  <input name="checkboxes" id="checkboxes-2" value="3" type="checkbox">
+							  Egg
+							</label>
+							</div>
+						  <div class="checkbox">
+							<label for="checkboxes-3">
+							  <input name="checkboxes" id="checkboxes-3" value="4" type="checkbox">
+							  Vegan
+							</label>
+							</div>
+						  </div>
+						</div>
+
+						<center>
+						<button type="submit" class="btn btn-success" id="Send" onclick="window.location.href='profile.html'">Update Profile</button>
+						</center>
+						</fieldset>
+						</form>
+
+
+				</div>
+				<div class="col-md-2">
 				</div>
 				<div class="col-md-2">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-8">
-				</div>
-				<div class="col-md-2">
-				</div>
-			</div>
+		</div>
 		</div>	
 		<footer>
-			<p>V00843430 V00807486 V00818749</p>
+			<p>V00843430 V00807486 V00818749 V00818387</p>
 		</footer>
 	</div>
-	<script src="js/menu.js"></script>	
+		<script src="js/menu.js"></script>
+		<script src="js/mealplanner.js"></script>
+		<script src="js/viewspecificrecipies.js"></script>
 </body>
 </html>

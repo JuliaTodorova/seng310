@@ -1,4 +1,4 @@
-<!--V00843430 V00807486 V00818749 UVic SENG 310 Phase 3-->
+<!--V00843430 V00807486 V00818749 V00818387 UVic SENG 310 Phase 3-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,21 +29,27 @@
 <body>
 	<header class="cd-header">
 		<a class="cd-primary-nav-trigger" href="#0"><span class="cd-menu-icon"></span></a>
+		
+		<div class = "backbtn">
+			<a href="viewrecipes.html" class="btn btn-default">&#10096;</a>
+		</div>
 	</header>
 	<nav>
 		<ul class="cd-primary-nav">
 			<li><a href="profile.html">Profile</a></li>
 			<li><a href="viewrecipes.html">View Recipes</a></li>
 			<li><a href="mealplanner.html">Meal Planner</a></li>
-			<li><a href="mealplanner.html">View Specific Recipes</a></li>
-			<li><a href="mealscheduler.html">Meal Schedule</a></li>
+			<!--<li><a href="mealplanner.html">View Specific Recipes</a></li> -->
 		</ul>
 	</nav>
 	<div class="container-fluid">
 		<div class="container">
 			<div class="row new-header">
+			
 				<h1>View Specific Recipes</h1>
+				
 				<img src="images/logo.jpeg">
+				
 			</div>
 
 			</div>
@@ -56,21 +62,24 @@
 
 					<div class="oneRecipe">
 						<div class="thumb">
-							<img src="images/quinoa.jpg">
+							<img src="images/soup.jpg">
 						</div>
-						<h2>One Pot Kale and Quinoa Pilaf</h2>
+						<h2>Lentil and Sausage Soup</h2>
+						
+						
+						
 						<div class = "starslocate">
 							<div class="stars">
 								<form action="">
-								<input class="star star-5" id="star-5" type="radio" name="star"/>
+								<input class="star star-5" id="star-5" type="radio" checked = "checked" name="star"/>
 								<label class="star star-5" for="star-5"></label>
 								<input class="star star-4" id="star-4" type="radio" name="star"/>
 								<label class="star star-4" for="star-4"></label>
-								<input class="star star-3" id="star-3" type="radio" name="star"/>
+								<input class="star star-3" id="star-3" type="radio"  name="star"/>
 								<label class="star star-3" for="star-3"></label>
 								<input class="star star-2" id="star-2" type="radio" name="star"/>
 								<label class="star star-2" for="star-2"></label>
-								<input class="star star-1" id="star-1" type="radio" name="star"/>
+								<input class="star star-1" id="star-1" type="radio"  name="star"/>
 								<label class="star star-1" for="star-1"></label>
 								</form>
 							</div>
@@ -100,17 +109,20 @@
 						<div class="ingredients">
 
 
-							<p><input class = "ingredient" id= "i1"> cups salted water</p>
-							<p><input class = "ingredient" id= "i2"> cup quinoa</p>
-							<p><input class = "ingredient" id= "i3"> bunch lacinato kale, washed and chopped into 1" lengths</p>
-							<p><input class = "ingredient" id= "i4"> meyer lemon, zested and juiced</p>
-							<p><input class = "ingredient" id= "i5"> scallions, minced</p>
-							<p><input class = "ingredient" id= "i6"> tablespoon toasted walnut oil</p>
-							<p><input class = "ingredient" id= "i7"> tablespoons toasted pine nuts</p>
-							<p><input class = "ingredient" id= "i8"> cup crumbled goat cheese</p>
-							<p>Salt and Pepper</p>
+							<p><input class = "ingredient" id= "i1"> bay leaves</p>
+							<p><input class = "ingredient" id= "i2"> tablespoons bacon fat or olive oil, divided</p>
+							<p><input class = "ingredient" id= "i3"> sausages made with herbs and/or garlic</p>
+							<p><input class = "ingredient" id= "i4"> large yellow or white onion</p>
+							<p><input class = "ingredient" id= "i5"> cloves of garlic</p>
+							<p><input class = "ingredient" id= "i6"> cup sturdy red wine</p>
+							<p><input class = "ingredient" id= "i7"> stalks of celery</p>
+							<p><input class = "ingredient" id= "i8"> tablespoon dried marjoram</p>
+							<p><input class = "ingredient" id= "i9"> carrots</p>
+							<p><input class = "ingredient" id= "i10"> cups chicken or beef stock</p>
+							<p><input class = "ingredient" id= "i11"> tablespoons organic ketchup</p>
+							<p><input class = "ingredient" id= "i12"> cups chopped spinach</p>
+							<p><input class = "ingredient" id= "i13"> cup chopped parsley</p>
 						</div>
-						
 					</div>
 						
 						
@@ -128,16 +140,40 @@
 						<h3 style="text-align: left;"> Directions </h3>
 						<i class="fa fa-clock-o" aria-hidden="true"></i>
 							<div class ="timeicon">
-								<span class="glyphicon glyphicon-time" style="font-size: 20px;"></span> 20 min
+								<span class="glyphicon glyphicon-time" style="font-size: 20px;"></span> 35 min
 								
 							</div>
-						<div class="dirpic">
-							<img src="images/directions_1.png">
-						</div>
-					<hr>
 						
+					
+					<ul>
+						<li>
+								<input class ="box" type="checkbox" name="notepad" id="notepad" />
+								<label class ="box" for="notepad">Rinse the lentils; put them in a large saucepan with about 3 cups of water and a bay leaf. Boil gently over medium heat.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="sb" id="sb" />
+								<label class ="box" for="sb">Meanwhile, heat 2 tablespoons of oil in a large, heavy-bottomed soup pot; add the sausage slices and brown, stirring frequently. Remove the slices.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="notepad+" id="notepad+" />
+								<label class ="box" for="notepad+">Add the remaining oil, the onions and garlic, with a good pinch of salt; cook over medium heat, stirring occasionally, until the onions are soft.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="txtmate" id="txtmate" />
+								<label class ="box" for="txtmate">Add the celery and marjoram, stirring over medium heat all the while. Add the wine and let it cook for a few minutes. Stir in the lentils with their cooking water, along with the stock, the second bay leaf, the sausage and the carrots; bring to a boil, reduce heat and simmer for 30 to 45 minutes.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="ds" id="ds" />
+								<label class ="box" for="ds">Ten minutes before serving, add the ketchup, spinach and parsley; stir well and simmer for another five minutes. Check for salt and correct. Add freshly ground pepper. Serve with red wine vinegar for guests to add, to taste.</label>
+						</li>
+						<li>
+								<input class ="box" type="checkbox" name="fsd" id="fsd" />
+								<label class ="box" for="fsd">A bowl of this soup, with slices of hearty whole-grain bread, toasted, makes a fine one-pot supper.</label>
+						</li>
 						
+					</ul>	
 						
+					<hr>	
 					</div>
 				</div>
 				<div class="col-md-2">
@@ -145,12 +181,12 @@
 			</div>
 		</div>
 		<footer>
-			<p>V00843430 V00807486 V00818749</p>
+			<p>V00843430 V00807486 V00818749 V00818387 p>
 		</footer>
 	</div>
 		<script src="js/menu.js"></script>
 		<script src="js/mealplanner.js"></script>
-		<script src="js/viewspecificrecipies.js"></script>
+		<script src="js/viewspecificrecipies_lentil.js"></script>
 </body>
 </html>
 
